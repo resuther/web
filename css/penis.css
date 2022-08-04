@@ -1,0 +1,68 @@
+.head {
+	text-align: center;
+}
+
+.button {
+  background-color: #4CAF50; /* Green */
+  border: none;
+  color: white;
+  padding: 15px 32px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  margin: 4px 2px;
+  cursor: pointer;
+}
+.button5 {
+  background-color: white;
+  color: black;
+  border: 2px solid #555555;
+}
+.right {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 100%;
+}
+
+.container {
+  height: 200px;
+  position: relative;
+  border: 0px solid green;
+}
+
+.center {
+  margin: 0;
+  position: absolute;
+  left: 50%;
+  -ms-transform: translate(-50%, -50%);
+  transform: translate(-50%, -50%);
+}
+
+.wrapper {
+    text-align: center;
+}
+
+.button2 {
+    position: relative;
+    top: 50%;
+}
+
+body, html {
+  height: 100%;
+  margin: 0;
+}
+
+.bg {
+  /* The image used */
+  background-image: url("https://ibb.co/nbYG7JL");
+
+  /* Full height */
+  height: 100%; 
+
+  /* Center and scale the image nicely */
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
