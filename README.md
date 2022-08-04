@@ -1,2 +1,1 @@
-# web
-Simple web files.
+# Web/Html files
