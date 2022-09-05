@@ -1,0 +1,141 @@
+@import url('https://fonts.googleapis.com/css2?family=Josefin+Sans:wght@600&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Lato:ital,wght@1,900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Yaldevi:wght@200;300;400;500;600;700&display=swap');
+
+body {    
+  background: url("../images/imgback.jpg") no-repeat center bottom/cover;
+  height: 100vh;
+  background-color: #005D16;
+  margin: 0;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+.topnav {
+  overflow: hidden;
+  background-color: black;
+}
+
+.topnav a {
+  float: left;
+  color: #f2f2f2;
+  text-align: center;
+  padding-top: 1000px;
+  padding: 14px 12px;
+  text-decoration: none;
+  font-size: 30px;
+  font-family: 'Josefin Sans', sans-serif;
+  margin-top: 10px;
+}
+
+.topnav a:hover {
+  background-color: black;
+  color: gray;
+}
+
+.title {
+  text-shadow: 3px 3px #ffffff;
+  font-family: 'Lato', sans-serif;
+}
+
+.para1 {
+  padding: 0px 90px;
+  float: right;
+  font-size: 24px;
+  text-align: center;
+  margin-top: 5%;
+  font-family: "Segoe UI", Arial, sans-serif;
+  margin-bottom: -1000px;
+  font-weight: bold;
+  margin-right: 820px
+}
+
+.para2 {
+  padding: 800px 90px;
+  float: right;
+  font-size: 24px;
+  text-align: center;
+  margin-top: 5%;
+  font-family: "Segoe UI", Arial, sans-serif;
+  margin-bottom: -1000px;
+  font-weight: bold;
+  margin-left: 860px
+}
+
+.footer {
+   position: fixed;
+   left: 0;
+   bottom: 0;
+   width: 100%;
+   background-color: black;
+   color: white;
+   text-align: center;
+}
+
+.foot {
+  font-family: "Segoe UI", Arial, sans-serif;
+  font-weight: bold;
+}
+   
+h1 {
+    color: black;
+    font-size: 80px;
+    font-weight: bold;
+    text-align: center;
+    padding-top: 0px;
+    margin-bottom: -25px;
+    font-family: 'Josefin Sans', sans-serif;
+}
+   
+h6 {
+    color: #000000;
+    font-size: 20px;
+    font-weight: bold;
+    text-align: center;
+    padding-top: 10px;
+    margin-bottom: 20px;
+    font-family: 'Josefin Sans', sans-serif;
+    font-weight: bold;
+}
+   
+.myProducts-gallery img{
+    height: 92px;
+    margin: 10px 0;
+    cursor: pointer;
+    display: block;
+    opacity: .5;
+}
+   
+.myProducts-gallery img:hover {
+    opacity: 1;
+}
+   
+.myProducts-gallery {
+    float: left;
+}
+   
+.myProducts {
+    top: 50%;
+    left: 50%;
+    transform: translate(-50% , -50%);
+    position: absolute;
+}
+   
+.image-container img {
+    height: 400px;
+    transition: transform 1s;
+}
+   
+.image-container img:hover{
+    transform: scale(1.5);
+    cursor: zoom-in;
+}
+   
+.image-container {
+    float: right;
+    padding: 10px;
+}
+
+.hyper {
+  color: #ffffff;
+  text-decoration: underline;
+}

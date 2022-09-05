@@ -1,0 +1,80 @@
+@import url('https://fonts.googleapis.com/css2?family=Josefin+Sans:wght@600&display=swap');
+
+body {    
+  background: url("../images/hakacropped.jpg") no-repeat center bottom/cover;
+  height: 100vh;
+  background-color: #005D16;
+  margin: 0;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+.topnav {
+  overflow: hidden;
+  background-color: black;
+}
+
+.topnav a {
+  float: left;
+  color: #f2f2f2;
+  text-align: center;
+  padding-top: 1000px;
+  padding: 14px 12px;
+  text-decoration: none;
+  font-size: 30px;
+  margin-top: 10px;
+  font-family: 'Josefin Sans', sans-serif;
+}
+
+.topnav a:hover {
+  background-color: black;
+  color: gray;
+}
+
+.topnav a.active {
+  background-color: #black;
+  color: white;
+}
+
+.title {
+  text-shadow: 6px 6px #000000;
+  padding: 65px 210px;
+  float: right;
+  font-size: 450%;
+  color: white;
+  margin-bottom: -1000px;
+}
+
+.para1 {
+  padding: 220px 90px;
+  float: right;
+  font-size: 36px;
+  text-align: center;
+  margin-top: 5%;
+  font-family: "Segoe UI", Arial, sans-serif;
+  margin-bottom: -1000px;
+  font-weight: bold;
+}
+
+p.clear {
+  clear: both;
+}
+
+.footer {
+   position: fixed;
+   left: 0;
+   bottom: 0;
+   width: 100%;
+   background-color: black;
+   color: white;
+   text-align: center;
+}
+
+.foot {
+  font-family: "Segoe UI", Arial, sans-serif;
+  font-weight: bold;
+}
+
+.hyper {
+  color: #ffffff;
+  text-decoration: underline;
+}
